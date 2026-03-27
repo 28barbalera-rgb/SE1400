@@ -1,0 +1,18 @@
+body {
+    display: grid;
+    grid-template-columns: minmax(0px, 1fr) repeat(6,minmax(0,175px)) minmax(0px, 1fr);
+}
+header {
+    grid-area: 1200px 82px;
+    color: white; opacity: 30%;
+}
+nav {
+    grid-area: 310px 277px;
+    grid-area: 317px 277px;
+    grid-area: 312px 277px;
+    color: blue; opacity: 30%;
+}
+aside {
+    grid-area: 330px 532px;
+    color: green; opacity: 30%;
+}
